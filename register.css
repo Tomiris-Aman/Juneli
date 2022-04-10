@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    padding: 1em 5em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    font-family: 'Rouge Script', cursive;
+    font-size: 3em;
+}
+.search-bar{
+    display: none;
+}
+.icons img{
+    width: 1.6em;
+    height: 1.6em;
+    margin: 0.7em;
+}
+.icons{
+    display: flex;
+    margin: 1em;
+}
+main{
+    margin: 0 0 10em;
+}
+.title{
+    text-align: center;
+    margin: 0 0 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    width: 30%;
+    padding: 1em 0 1em 1em;
+    margin: 1em 0;
+    border: none;
+    border-bottom: 1px #000 solid;
+}
+form .btn{
+    border: none;
+    background-color: rgb(36, 230, 149);
+    cursor: pointer;
+}
+form .btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.log-in{
+    text-align: center;
+}
+.log-in a{
+    color: #000;
+    justify-content: center;
+    text-decoration: none;
+}
+.log-in a:hover{
+    text-decoration: underline;
+}
+/* footer  */
+footer{
+    background-color: #000;
+    color: #fff;
+}
+footer h1{
+    font-size: 1.2em;
+    font-weight: 200;
+    text-decoration: underline;
+}
+.footer-inner{
+    padding: 0 0 3em ;
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    text-align: center;
+    margin: 0 0 0 30em;
+}
+.footer-links ul{
+    padding: 5em 5em 5em 0
+}
+.footer-links ul li{
+    list-style: none;
+    padding-bottom: 1em;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color:#fff;
+}
